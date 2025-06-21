@@ -1,0 +1,7 @@
+[build]
+  # команда сборки вашего фронтенда
+  command   = "npm run build"
+  # где лежат ваши serverless-функции
+  functions = "netlify/functions"
+  # куда складывается результат сборки (у вас Vite по умолчанию выбрасывает в "dist")
+  publish   = "dist"
